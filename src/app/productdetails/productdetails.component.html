@@ -1,0 +1,26 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Product Id</th>
+        <th scope="col">Product Name</th>
+        <th scope="col">Price</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Category</th>
+        <th scope="col">Brand</th>
+        <th scope="col">Availibility</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of allUsers">
+        <th scope="row">{{user.id}}</th>
+        <td>{{user.pid}}</td>
+        <td>{{user.pname}}</td>
+        <td>{{user.price}}</td>
+        <td>{{user.pqnty}}</td>
+        <td>{{user.pcateg}}</td>
+        <td>{{user.pbrand}}</td>
+        <td>{{user.pavail}}</td>
+      </tr>
+    </tbody>
+  </table>

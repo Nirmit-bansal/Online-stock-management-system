@@ -1,0 +1,53 @@
+<div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>Successfully!</strong> Your data has been entered.
+  <button (click)="closeAlert()" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" ><i class="bi bi-x"></i></button>
+</div>
+<div class="mycontainer">
+  <h2 style="text-align: center;">Add Product Items</h2>
+  <br>
+  <div>
+    <form #userForm = "ngForm">
+      <div class="form-group">
+        <input class="form-control" type="number" required pattern="^(?:[1-9]?\d|100)$" placeholder="Enter the Product ID" #pid="ngModel" name="pid" [(ngModel)]="userObj.pid">
+        <div class="alert" *ngIf="pid.invalid && pid.touched">
+            <small  class="error" *ngIf="pid.errors.required">*Product Id is required</small>
+            <small  class="error" *ngIf="pid.errors.pattern">*Product Id must be 0 to 100 digit</small>
+        </div>
+      </div>
+      <div class="form-group">
+        <input class="form-control" type="text" required placeholder="Product name" #pname="ngModel"  name="pname" [(ngModel)]="userObj.pname">
+        <small *ngIf="pname.invalid && pname.touched" class="error alert">*Product name is required</small>
+      </div>
+      <div class="form-group">
+        <input class="form-control" type="number" required placeholder="Product Price" #price="ngModel"  name="price" [(ngModel)]="userObj.price">
+        <small *ngIf="price.invalid && price.touched" class="error alert">*Product Price is required</small>
+      </div>
+      <div class="form-group">
+        <input class="form-control" type="number" required pattern="^(?:[1-9]?\d|100)$" placeholder="Quantity" #pqnty="ngModel" name="pqnty" [(ngModel)]="userObj.pqnty">
+        <div class="alert" *ngIf="pqnty.invalid && pqnty.touched">
+          <small  class="error" *ngIf="pqnty.errors.required">*Product Quantity is required</small>
+          <small  class="error" *ngIf="pqnty.errors.pattern">**Product Quantity must be 0 to 100 digit</small>
+      </div>
+      </div>
+      <div class="form-group">
+        <input class="form-control" type="text" required placeholder="Category" #pcateg="ngModel" name="pcateg" [(ngModel)]="userObj.pcateg">
+        <small *ngIf="pcateg.invalid && pcateg.touched" class="error alert">*Product Category is required</small>
+      </div>
+      <div class="form-group">
+        <input class="form-control" type="text" required placeholder="Brand" #pbrand="ngModel" name="pbrand" [(ngModel)]="userObj.pbrand">
+        <small *ngIf="pbrand.invalid && pbrand.touched" class="error alert">*Product Brand is required</small>
+      </div>
+      <div class="form-group">
+        <input class="form-control" type="text" required placeholder="Availibility" #pavail="ngModel" name="pavail" [(ngModel)]="userObj.pavail">
+        <small *ngIf="pavail.invalid && pavail.touched" class="error alert">*Product Availibility is required</small>
+      </div>
+      <div class="container">
+        <button [disabled]= "!userForm.valid" type="submit" class="btn btn-info" *ngIf="!isEdit" (click)="doRegister(userForm.value)">Save</button>
+        <button [disabled]= "!userForm.valid" type="submit" class="btn btn-info" *ngIf="isEdit" (click)="updateUser(userForm)">Update</button>
+      </div>
+    </form>
+  </div>
+</div>
+<br>
+<br>
+<br>

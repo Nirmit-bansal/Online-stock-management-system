@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "pid": 11,
+      "pname": "Shoes",
+      "price": 10000,
+      "pqnty": 5,
+      "pcateg": "Men",
+      "pbrand": "Nike",
+      "pavail": "Yes",
+      "id": 1
+    },
+    {
+      "pid": 15,
+      "pname": "Shirt",
+      "price": 500,
+      "pqnty": 14,
+      "pcateg": "Men and Women",
+      "pbrand": "Lewis",
+      "pavail": "Yes",
+      "id": 2
+    },
+    {
+      "pid": 25,
+      "pname": "Trausers",
+      "price": 500,
+      "pqnty": 10,
+      "pcateg": "Men",
+      "pbrand": "Pumas",
+      "pavail": "No",
+      "id": 3
+    },
+    {
+      "pid": 76,
+      "pname": "shirt",
+      "price": 677,
+      "pqnty": 6,
+      "pcateg": "men and women",
+      "pbrand": "Lewis",
+      "pavail": "No",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+[0906/160443.061:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[0906/160656.017:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[0906/205513.733:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[0907/104619.473:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[0908/204619.388:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[0919/224415.197:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[0920/213732.374:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[0921/214313.753:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[0928/001939.540:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[1003/111300.775:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[1003/115023.077:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[1003/120935.510:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[1003/121903.166:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[1004/201823.941:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[1004/202343.537:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[1004/223749.868:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[1005/104506.944:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[1009/214039.886:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[1010/104343.378:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[1018/181312.527:ERROR:crashpad.cc(149)] Failed to get activation factory for IPlatformDiagnosticsAndUsageDataSettingsStatics
+[1018/183257.161:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

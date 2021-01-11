@@ -1,0 +1,16 @@
+.mycontainer{
+    margin: auto;
+    width: 50%;
+}
+.container{
+    text-align: center;
+}
+input.ng-invalid{
+border-left: 2px solid red;
+}
+input.ng-valid{
+border-left: 2px solid green;
+}
+.error{
+    color: red;
+}
